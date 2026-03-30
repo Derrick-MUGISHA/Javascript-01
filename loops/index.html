@@ -6,7 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Password Checker</p>
-    <script src="index.js"></script>
+    <br />
+    <br />
+    <form>
+        <input type="text" name="name" placeholder="Enter your name" class="name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+    const form = document.getElementsByClassName("name");
+    form.typeof = Number;
+    if (form) {
+        console.log(form)
+    }
+    </script>
+
+
+    
 </body>
 </html>
